@@ -27,5 +27,11 @@ namespace Lecture_7_TB_Labels_Buttons_RTB
         {
             InitializeComponent();
         }
+
+        private void btnDisplayName_Click(object sender, RoutedEventArgs e)
+        {
+            string getName = txtFirstName.Text; 
+            txtDisplay.Text = $"Hi {getName}";
+        }
     }
 }

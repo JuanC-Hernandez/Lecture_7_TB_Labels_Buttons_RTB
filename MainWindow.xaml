@@ -6,11 +6,13 @@
         xmlns:local="clr-namespace:Lecture_7_TB_Labels_Buttons_RTB"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <StackPanel>
-        <!--Button, TextBox, Label Rich Text Box-->
-        
+    <!--Button, TextBox, Label Rich Text Box-->
+    <StackPanel> <!--Layout Tag-->
+        <Label Content="First Name"/>
+        <TextBox x:Name="txtFirstName"/>
+        <Button Content="Display" Name="btnDisplayName" Click="btnDisplayName_Click"/>
+        <TextBox Name="txtDisplay"/>
         <!--StackPannel-->
-
     </StackPanel>
 </Window>
 <!--
