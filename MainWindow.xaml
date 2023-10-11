@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:Lecture_7_TB_Labels_Buttons_RTB"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Canvas>
+    <StackPanel>
+        <!--Button, TextBox, Label Rich Text Box-->
+        
+        <!--StackPannel-->
 
-    </Canvas>
+    </StackPanel>
 </Window>
+<!--
+    Open and Closing
+    <Tag> .... <\Tag>
+    -->
